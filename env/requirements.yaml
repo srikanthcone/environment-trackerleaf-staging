@@ -7,6 +7,9 @@ dependencies:
   name: exposecontroller
   repository: http://chartmuseum.jenkins-x.io
   version: 2.3.89
+- name: go-rest-mongodb-service
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 0.0.1
 - name: go-restapi-service
   repository: http://jenkins-x-chartmuseum:8080
   version: 0.0.19
